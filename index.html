@@ -17,20 +17,20 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand mr-auto" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>
-           <div class="collapse navbar-collapse" id="Navbar">
+            
+            <a class="navbar-brand mr-auto" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>    
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>       
+            <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>        
-            </div>          
+            </div>        
         </div>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
     </nav>
 
 
@@ -44,13 +44,19 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-sm align-self-center">
+                    <button class="btn btn-warning p-2 pl-5 pr-5 border-0">Reserve Table</button>
+                </div>
             </div>
         </div>
     </header>
 
     <div class="container">
         <div class="row row-content align-items-center">
-            <div class="media">
+            <div class="col-12 col-sm-4 col-md-3 order-sm-last">
+                <h3>Our Lipsmacking Culinary Creation</h3>
+            </div>
+            <div class="media col col-sm col-md order-sm-first">
                 <img class="d-flex mr-3 img-thumbnail align-self-center"
                         src="img/uthappizza.png" alt="Uthappizza">
                 <div class="media-body">
@@ -69,17 +75,32 @@
 
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3 order-sm-last">
+            <div class="col-12 col-sm-4 col-md-3 order-sm-first">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm col-md order-sm-first ">
+            <!-- <div class="col col-sm col-md order-sm-last">
                 <h2>Weekend Grand Buffet</h2>
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            </div> -->
+            <div class="media col col-sm col-md order-sm-last">           
+                <div class="media-body">
+                    <h2 class="mt-0">
+                        Weekend Grand Buffet      
+                    </h2>
+                    <span class="badge badge-danger">NEW</span>
+                    <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
+                </div>
+                <img class="d-flex ml-3 img-thumbnail align-self-center"
+                        src="img/buffet.png" alt="Uthappizza">
             </div>
+
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="media">
+            <div class="col-12 col-sm-4 col-md-3 order-sm-last">
+                <h3>Meet Our Culinary Specialists</h3>
+            </div>
+            <div class="media col col-sm col-md order-sm-first">
                 <img class="d-flex mr-3 img-thumbnail align-self-center"
                         src="img/alberto.png" alt="Alberto Somayya">
                 <div class="media-body">
@@ -90,6 +111,85 @@
                         whos-who in the culinary world, he specializes in
                         creating mouthwatering Indo-Italian fusion experiences.
                         </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center justify-content-center">
+            <div class="card col-8 p-0">
+                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <p class="col-12 col-sm-2 col-md-2">Number of Guests</p>
+                            <div class="col-12 col-sm-10 col-md-10">
+                                <div class="row">
+                                    <div class="d-flex form-check">
+                                        <label class="m-0" for="1">
+                                            <input class="mr-1" type="radio" name="1" id="1">                                            
+                                            1
+                                        </label>
+                                    </div>
+                                    <div class="d-flex form-check">
+                                        <label class="m-0" for="2">
+                                            <input class="mr-1" type="radio" name="2" id="2">                                            
+                                            2
+                                        </label>
+                                    </div>
+                                    <div class="d-flex form-check">
+                                        <label class="m-0" for="3">
+                                            <input class="mr-1" type="radio" name="3" id="3">                                            
+                                            3
+                                        </label>
+                                    </div>
+                                    <div class="d-flex form-check">
+                                        <label class="m-0" for="4">
+                                            <input class="mr-1" type="radio" name="4" id="4">                                            
+                                            4
+                                        </label>
+                                    </div>
+                                    <div class="d-flex form-check">
+                                        <label class="m-0" for="5">
+                                            <input class="mr-1" type="radio" name="5" id="5">                                            
+                                            5
+                                        </label>
+                                    </div>
+                                    <div class="d-flex form-check">
+                                        <label class="m-0" for="6">
+                                            <input class="mr-1" type="radio" name="6" id="6">                                            
+                                            6
+                                        </label>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p class="col-12 col-sm-2 col-md-2">Date and Time</p>
+                            <div class="col-12 col-sm-10 col-md-10">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6">
+                                        <label for="">
+                                            Date
+                                            <input type="date" name="begin" value="2023-05-19" min="1997-01-01" max="2030-12-31">
+                                        </label>
+                                        
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <label for="">
+                                            Time
+                                            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                                        </label>                                  
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="row">
+                            <p class="col-12 col-sm-2 col-md-2"></p>
+                            <div class="col-12 col-sm-10 col-md-10">
+                                <button class="btn btn-primary">Reserve</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
