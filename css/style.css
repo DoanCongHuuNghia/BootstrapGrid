@@ -5,7 +5,7 @@
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
-  /* border-bottom: 1px ridge; */
+  border-bottom: 1px ridge;
   min-height: 400px; }
 
 .footer {
@@ -52,3 +52,32 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3); }
+
+.modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal-header .login-close {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
+
+.card-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .card-header .reserve-close {
+    color: floralwhite; }
+
+.card-body {
+  background: #D1C4E9; }
+
+.show {
+  display: block; }

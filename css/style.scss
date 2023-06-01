@@ -72,3 +72,40 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    background: $background-dark;
+    color: floralwhite;
+    .login-close {
+        color: floralwhite;
+    }
+}
+
+.modal-body {
+    background: $background-pale;
+}
+
+.card-header {
+    background: $background-dark;
+    color: floralwhite;
+    .reserve-close {
+        color: floralwhite;
+    }
+}
+
+.card-body {
+    background: $background-pale;
+}
+
+.show {
+    display: block;
+}
